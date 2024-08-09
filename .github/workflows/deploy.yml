@@ -22,7 +22,7 @@ jobs:
 
       - name: Build project
         env:
-          VITE_CHATGPT_KEY: ${{ vars.CHATGPT_KEY }}
+          VITE_CHATGPT_KEY: ${{ secrets.CHATGPT_KEY }}
         run: npm run build
 
       - name: Upload production-ready build files
