@@ -20,14 +20,17 @@ ChatGPT UI Integration is a web application built with Vite, React, TypeScript, 
 
 Before running the project, follow these steps:
 
-1. **.env.local**:
+1. **.create secret key**:
+
+    Go to https://platform.openai.com/api-keys and create a new secret key
+
+2. **.env.local**:
 
     Create a `.env.local` file in the root directory of the project and add the following variable with your ChatGPT api key:
 
     ```sh
     VITE_CHATGPT_KEY=
     ```
-
 
 ## Installation
 
