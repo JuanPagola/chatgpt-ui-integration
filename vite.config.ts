@@ -8,7 +8,7 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
   },
-  base: './',
+  base: './chatgpt-ui-integration/',
   server: {
     port: 3000,
   },
